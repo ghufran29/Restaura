@@ -127,16 +127,16 @@ const Footer = () => {
             </a>
           </div>
           <div className="flex space-x-4 text-gray-400">
-            <a href="#" className="hover:text-white">
+            <a href="/" className="hover:text-white">
               Home
             </a>
-            <a href="#" className="hover:text-white">
+            <a href="/" className="hover:text-white">
               Cookies
             </a>
-            <a href="#" className="hover:text-white">
+            <a href="/" className="hover:text-white">
               Help
             </a>
-            <a href="#" className="hover:text-white">
+            <a href="/" className="hover:text-white">
               FAQs
             </a>
           </div>
