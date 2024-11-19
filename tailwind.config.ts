@@ -8,10 +8,24 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        primary: "#FEA116",
+        light: "#F1F8FF",
+        dark: "#0F172B",
+      },
+      screens: {
+				xs: '360px',
+				sm: '640px',
+				md: '768px',
+				lg: '960px',
+				xl: '1200px'
+			},
+			fontFamily: {
+				primary: "Nunito, sans-serif",
+        secondary: "Pacifico, cursive",
+			},
+      animation: {
+        'spin-slow': 'spin 25s linear infinite' 
       },
     },
   },
