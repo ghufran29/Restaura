@@ -41,7 +41,7 @@ This project was built using the following tools and technologies:
 Follow these steps to set up the project locally:
 
 1. **Clone the repository:**
-   git clone https://github.com/your-repo-url.git
+   git clone https://github.com/ghufran29/Restaura.git
    
 2. **Navigate to the project directory:**
    cd restaura

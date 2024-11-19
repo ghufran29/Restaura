@@ -199,7 +199,7 @@ const menuItemsData = {
   ],
 };
 
-const page = () => {
+const Page = () => {
   const [activeTab, setActiveTab] = useState("breakfast");
 
   const renderMenuItems = () => {
@@ -295,4 +295,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

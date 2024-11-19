@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FaEnvelopeOpen } from "react-icons/fa";
 
-const page = () => {
+const Page = () => {
   return (
     <>
       <div className="bg-[linear-gradient(rgba(15,23,43,.9),rgba(15,23,43,.9)),url('/images/bg-hero.jpg')] bg-center bg-no-repeat bg-cover relative overflow-hidden w-full py-20 mb-10">
@@ -138,4 +138,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
